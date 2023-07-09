@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+  style
+      include ../static/style.css
+
+block content 
+  
+  section#introSection 
+      div  Welcome to Chandni's dance academy  
+      div.small  Eat Dance sleep repeat
+
+  section#missionSection
+        h3 Our missions
+
+        div.card
+            h4 This is a para
+            div.card-box
+              div.card-img
+                img(src="/static/image1.png")
+              div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h4 This is a para
+            div.card-box
+              div.card-img
+                img(src="/static/image5.jpeg")
+              div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h4 This is a para
+            div.card-box
+              div.card-img
+                img(src="/static/image2.png")
+              div.card-content
+                p This is the best dance academy of the universe
+
+  section#sponsorSection 
+        h3 Our sponsors 
+        div#sponsor
+            img(src="/static/logo1.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo2.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo3.png", alt="Sponsor image", class="spImage")
+            img(src="/static/logo4.png", alt="Sponsor image", class="spImage")

@@ -1,0 +1,30 @@
+[
+    {
+     "key": "Ctrl+D",
+     "command": "Ctrl+D",
+     "when": "copy line down"
+ },
+ {
+     "key": "ctrl+d",
+     "command": "editor.action.copyLinesDownAction",
+     "when": "editorTextFocus && !editorReadonly"
+ },
+ {
+     "key": "shift+alt+down",
+     "command": "-editor.action.copyLinesDownAction",
+     "when": "editorTextFocus && !editorReadonly"
+ },
+ {
+     "key": "ctrl+oem_plus",
+     "command": "workbench.action.zoomOut"
+ },
+ {
+     "key": "ctrl+numpad_subtract",
+     "command": "-workbench.action.zoomOut"
+ },
+ {
+     "key": "ctrl+oem_plus",
+     "command": "workbench.action.zoomOut"
+ }
+ ]
+ 
